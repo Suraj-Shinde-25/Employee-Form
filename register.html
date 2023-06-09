@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="Material/gem.png">
+    <title>Document</title>
+    <style>
+        .I1{
+            width: 200px;
+            height: 20px;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin: 20px 20px;
+            border: none;
+            font-family: 'Montserrat';
+        }
+        .B1{
+            background-color: #D4ADFC;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin: 30px 20px;
+            border: none;
+            font-family: 'Montserrat';
+        }
+        .B1:hover{
+            background-color: #5C469C;
+            color: white;
+        }
+        .D1{
+            margin: 30px 30px;
+            display: block;
+            width: 600px;
+            background-color: #79c6c1;
+            text-align: center;
+            border-radius: 7px;
+            
+        }
+        .container{
+            background-color: aliceblue;
+            margin-left: 350px;
+            margin-right: 350px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            block-size: 650px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="D1">
+        <form action="registerAction.php" method="post" style="margin: 25px;">
+            <div class="FD1">
+                <input type="text" name="firstname" placeholder="First Name" class="I1">
+                <input type="text" name="lastname" placeholder="Last Name" class="I1">
+            </div>
+            <div class="FD1">
+                <input type="number" name="employeeid" placeholder="Employee Id" class="I1">
+                <input type="number" name="mobno" placeholder="Mobile No" class="I1">
+            </div>
+            <div class="FD1">
+                <input type="text" name="designation" placeholder="Designation" class="I1">
+                <input type="text" name="department" placeholder="Department" class="I1">
+            </div>
+            <div class="FD1">
+                <input type="number" name="salary" placeholder="Salary" class="I1">
+            </div>
+            <br>
+            <input type="submit" value="Register" class="B1">
+        </form>
+    </div>
+</body>
+</html>

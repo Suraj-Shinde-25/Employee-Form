@@ -1,0 +1,49 @@
+.I1{
+    width: 200px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    border: none;
+    font-family: 'Montserrat';
+}
+.B1{
+    background-color: #D4ADFC;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px 23px;
+    margin: 17px 20px;
+    border: none;
+    font-family: 'Montserrat';
+}
+.B1:hover{
+    background-color: #5C469C;
+    color: white;
+}
+.container{
+    background-color: aliceblue;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    block-size: 650px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.D1{
+    margin: 30px 30px;
+    display: block;
+    width: 700px;
+    background-color: #79c6c1;
+    text-align: center;
+    border-radius: 7px;
+    
+}
+.FD1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 5px 20px;            
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
